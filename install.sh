@@ -10,9 +10,10 @@ sudo apt-get update
 sudo apt-get install chromium-browser rpi-youtube -y
 
 # Download this file
-# http://www.mediafire.com/file/0i6v4jdq2y2qved/flash21.tar.xz
+# http://download1169.mediafireuserdownload.com/zo4tb2qbckrg/0i6v4jdq2y2qved/flash21.tar.xz
 
 cd ~/Downloads
+wget -q0 http://download1169.mediafireuserdownload.com/zo4tb2qbckrg/0i6v4jdq2y2qved/flash21.tar.xz
 tar -xJf flash21.tar.xz
 cd pepper
 sudo cp *.so /usr/lib/chromium-browser
